@@ -20,3 +20,18 @@
   background-color: white;
   z-index: 999;
 }
+
+.emailList__list {
+  padding-bottom: 20%;
+}
+
+/* Hide scroller in chrome, safari, opera */
+.emailList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar in IE , edge and mozila firefox */
+.emailList {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
